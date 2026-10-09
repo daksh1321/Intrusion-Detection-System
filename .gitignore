@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Large datasets
+data/raw/
+data/processed/*.csv
+data/processed/*.npy
+
+# Trained models and generated artifacts
+data/processed/*.keras
+data/processed/*.pkl
+data/processed/*.h5
+
+# Generated results
+data/processed/*confusion_matrix*
+data/processed/*results.json
+data/processed/final_model_decision.json
+data/processed/final_model_comparison.csv
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
